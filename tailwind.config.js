@@ -1,9 +1,9 @@
-const { colors } = require('./src/theme/colors'); // 1. Importamos nossas cores
+const { colors } = require("./src/themes/colors");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],
-
+  presets: [require("nativewind/preset")],
   theme: {
     extend: {
       // 2. Aqui estendemos a paleta de cores padrão do Tailwind
