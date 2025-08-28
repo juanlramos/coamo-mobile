@@ -1,9 +1,17 @@
 import { Text, View } from "react-native";
+import { colors } from "../../themes/colors";
 
-export function FormPessoa() {
+export const FormPessoa = () => {
   return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+    <View
+      style={{
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: colors.primary,
+      }}
+    >
       <Text>Formulario de criação de pessoa</Text>
     </View>
   );
-}
+};

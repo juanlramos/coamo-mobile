@@ -14,11 +14,11 @@ export function AppNavigator() {
         initialRouteName="List"
         screenOptions={{
           headerShown: false,
-          tabBarActiveTintColor: colors.primary, // Cor para o ícone ativo
-          tabBarInactiveTintColor: colors.secondary, // Cor para o ícone inativo
+          tabBarActiveTintColor: colors.background, // Cor para o ícone ativo
+          tabBarInactiveTintColor: colors.primary, // Cor para o ícone inativo
           //fundo da barra de navegação
           tabBarStyle: {
-            backgroundColor: colors.background, // Cor de fundo da navbar
+            backgroundColor: colors.secondary, // Cor de fundo da navbar
             borderTopWidth: 0, // Remove a linha da borda superior
           },
         }}
